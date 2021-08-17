@@ -6,7 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico" />
 </head>
+<style>
+    body {
+        background-color: #f1faee;
+    }
+    
+    hr {
+        border: 6px solid rgb(151, 146, 146);
+    }
+    
+    footer,
+    .skills,
+    .main-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .skills ul li {
+        list-style-type: square;
+    }
+    
+    .main-body {
+        justify-content: flex-start;
+    }
+    
+    #center-text {
+        position: relative;
+        left: 2em;
+    }
+    
+    #title-color {
+        color: #457b9d;
+    }
+</style>
 
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px;">
     <header>
@@ -22,52 +57,69 @@
         <hr />
     </header>
     <main>
-        <p><strong>Objective:</strong> Seeking to leverage meticulous analytical skills and continuous learning to add value to myself, company or group i work with, to see that I give in my very best to any task being given to me, with a great sense of
-            team-work and leadership.
-        </p>
-        <br>
-        <p><em>EXPERIENCE</em></p>
-        <p><strong>Akwa Ibom State University, Mkpat Enin - Student Assistant</strong></p>
-        <p>MAY 2018 - MARCH 2019</p>
-        <p>Tutored science inclined freshmen on fundamental courses</p>
-        <br />
-        <p><strong>Federal Science and Technical College, Benue State - ICT Personnel</strong></p>
-        <p>MAY 2019 - JUNE 2020</p>
-        <p>Result collation and entry</p>
-        <hr>
-        <br>
-        <p><em>EDUCATION</em></p>
-        <P><strong>AKWA IBOM STATE UNIVERSITY, Mkpat Enin - B.sc</strong></P>
-        <p>MARCH 2015 - MAY 2019</p>
-        <p>Computer Science</p>
-        <p><strong>HP DATA PRESENTATION - certificate</strong></p>
-        <p>MAY 2019</p>
-        <p><strong>JOBBERMAN SOFT SKILLS - certificate</strong></p>
-        <p>NOVEMBER 2020</p>
-        <p><strong>MICROSOFT AZURE FUNDAMENTALS - certificate</strong></p>
-        <p>MAY 2021</p>
-        <hr>
-        <br>
-        <p><strong>SOFT SKILLS</strong></p>
-        <ul>
-            <li>Team Player</li>
-            <li>Resourceful</li>
-            <li>Creative thinker</li>
-            <li>Ability to adapt</li>
-            <li>Accountability</li>
-        </ul>
-        <p><strong>TOOLS & LANGUAGES</strong></p>
-        <ul>
-            <li>GitHub</li>
-            <li>VsCode</li>
-            <li>JavaScript</li>
-            <li>HMTL</li>
-            <li>CSS</li>
-            <li>React</li>
-        </ul>
+        <div class="main-body">
+            <p id="title-color"><strong>OBJECTIVE</strong></p>
+            <div>
+                <p id="center-text"> Seeking to leverage meticulous analytical skills and continuous learning to add value to myself, company or group i work with, to see that I give in my very best to any task being given to me, with a great sense of team-work and leadership.</p>
+            </div>
+        </div>
+        <div class="main-body">
+            <p id="title-color"><strong>EXPERIENCE</strong></p>
+            <div id="center-text">
+                <p><strong>Akwa Ibom State University, Mkpat Enin - Student Assistant</strong><br>MAY 2018 - MARCH 2019<br>Tutored science inclined freshmen on fundamental courses</p>
 
-        <p><strong>HOBBIES</strong></p>
-        <p>Volleyball, Reading and Video games</p>
+                <p><strong>Federal Science and Technical College, Benue State - ICT Personnel</strong><br>MAY 2019 - JUNE 2020<br>Result collation and entry</p>
+            </div>
+        </div>
+        <hr>
+        <div class="main-body">
+            <p id="title-color"><strong>EDUCATION</strong></p>
+            <div id="center-text">
+                <P><strong>AKWA IBOM STATE UNIVERSITY, Mkpat Enin - B.sc</strong></P>
+                <p>MARCH 2015 - MAY 2019</p>
+                <p>Computer Science</p>
+                <p><strong>HP DATA PRESENTATION - certificate</strong></p>
+                <p>MAY 2019</p>
+                <p><strong>JOBBERMAN SOFT SKILLS - certificate</strong></p>
+                <p>NOVEMBER 2020</p>
+                <p><strong>MICROSOFT AZURE FUNDAMENTALS - certificate</strong></p>
+                <p>MAY 2021</p>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="skills">
+            <div>
+                <p id="title-color"><strong>SOFT SKILLS</strong></p>
+                <ul>
+                    <li>Team Player</li>
+                    <li>Resourceful</li>
+                    <li>Creative thinker</li>
+                    <li>Ability to adapt</li>
+                    <li>Accountability</li>
+                </ul>
+            </div>
+            <div>
+                <p id="title-color"><strong>TOOLS & LANGUAGES</strong></p>
+                <ul>
+                    <li>GitHub</li>
+                    <li>VsCode</li>
+                    <li>JavaScript</li>
+                    <li>HMTL</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div>
+                <p id="title-color"><strong>HOBBIES</strong></p>
+                <ul>
+                    <li>Volleyball</li>
+                    <li>Reading</li>
+                    <li>Video games</li>
+                </ul>
+            </div>
+        </div>
+
     </main>
     <hr>
     <footer>
