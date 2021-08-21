@@ -5,149 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Usenmfon Uko</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    body {
-        background-color: #1d3557;
-    }
-    
-    header {
-        background-color: #D1CAA1;
-    }
-    
-    .content {
-        background-color: #f1faee;
-    }
-    
-    hr {
-        border: 6px solid rgb(151, 146, 146);
-    }
-    
-    footer,
-    .skills,
-    .main-body {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    
-    .skills ul li {
-        list-style-type: square;
-    }
-    
-    .main-body {
-        justify-content: flex-start;
-    }
-    
-    .center-text {
-        position: relative;
-        left: 2em;
-    }
-    
-    .title-color {
-        color: #457b9d;
-    }
-    
-    #text-wrap {
-        word-wrap: break-word;
-        position: relative;
-        right: .5em;
-    }
-    
-    #contacts a {
-        text-decoration: none;
-        color: #457b9d;
-    }
-</style>
 
-<body style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18px;">
-    <div class="content">
-        <header>
-            <table>
-                <tr>
-                    <td><img src="./assests/display_picture.jpg" width="150px" height="150px" alt="profile picture"></td>
-                    <td>
-                        <strong>Usenmfon Uko<br>Frontend Web Developer</strong>
-                    </td>
-                </tr>
-            </table>
-            <p id="contacts"><img src="./assests/placeholder.png" width="15px" height="15px" alt="gps"> Ikot Ekpene, Akwa Ibom || &#9742 <a href="tel:+2347063735920">07063735920</a> || &#9993 <a href="mailto:usenmfonuko@gmail.com">usenmfonuko@gmail.com</a></p>
-            <hr />
-        </header>
-        <main>
-            <div class="main-body">
-                <p class="title-color"><strong>OBJECTIVE</strong></p>
-                <div id="text-wrap">
-                    <p class="center-text"> Seeking to leverage meticulous analytical skills and continuous learning to add value to myself, company or group i work with, to see that I give in my very best to any task being given to me, with a great sense of team-work and leadership.</p>
-                </div>
+<body>
+    <header>
+        <h1>
+            <a href="#" class="typewrite" data-period="2000" data-type='["Hi, Im Usenmfon", "I am Creative.", "I Love Design.", "I love to Develop"]'>
+                <span class="wrap"></span>
+            </a>
+        </h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="nav">
+                <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Projects</a>
+                <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
             </div>
-            <div class="main-body">
-                <p class="title-color"><strong>EXPERIENCE</strong></p>
-                <div class="center-text">
-                    <p><strong>Akwa Ibom State University, Mkpat Enin - Student Assistant</strong><br><em>MAY 2018 - MARCH 2019</em><br>Tutored science inclined freshmen on fundamental courses</p>
 
-                    <p><strong>Federal Science and Technical College, Benue State - ICT Personnel</strong><br><em>MAY 2019 - JUNE 2020</em><br>Result collation and entry</p>
+            <div class="content">
+                <p>Hi, I'm a frontend developer with sets of dynamic skills, seeking to learn and contribute to projects.</p>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <ul>
+                            <li style="color:#F5F3BB;">GitHub</li>
+                            <li style="color:#19647E;">VsCode</li>
+                            <li style="color:#86BA90;">JavaScript</li>
+                            <li style="color:#28AFB0;">HMTL</li>
+                            <li style="color:#F5F3BB;">CSS</li>
+                            <li style="color:#381f09;">React</li>
+                        </ul>
+                    </div>
+                    <div class="mySlides fade">
+                        <ul>
+                            <li style="color:#F5F3BB;">Volleyball</li>
+                            <li style="color:#19647E;">Reading</li>
+                            <li style="color:#28AFB0;">Video games</li>
+                        </ul>
+                    </div>
+                    <div class="mySlides fade">
+                        <ul>
+                            <li style="color:#28AFB0;;">Team Player</li>
+                            <li style="color:#19647E;">Resourceful</li>
+                            <li style="color:#28AFB0;">Creative thinker</li>
+                            <li style="color:#F5F3BB;">Ability to adapt</li>
+                            <li style="color:#381f09;">Accountability</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <span class="dot" onclick="currentSlide(1)">Dev Tools</span>
+                    <span class="dot" onclick="currentSlide(2)">Hobbies</span>
+                    <span class="dot" onclick="currentSlide(3)">Soft Skills</span>
                 </div>
             </div>
-            <hr>
-            <div class="main-body">
-                <p class="title-color"><strong>EDUCATION</strong></p>
-                <div class="center-text">
-                    <P><strong>AKWA IBOM STATE UNIVERSITY, Mkpat Enin - B.sc</strong></P>
-                    <p><em>MARCH 2015 - MAY 2019</em></p>
-                    <p>Computer Science</p>
-                    <p><strong>HP DATA PRESENTATION - certificate</strong></p>
-                    <p><em>MAY 2019</em></p>
-                    <p><strong>JOBBERMAN SOFT SKILLS - certificate</strong></p>
-                    <p><em>NOVEMBER 2020</em></p>
-                    <p><strong>MICROSOFT AZURE FUNDAMENTALS - certificate</strong></p>
-                    <p><em>MAY 2021</em></p>
-                </div>
+            <div class="image">
+                <img src="./assests/display_picture.jpg" alt="display picture">
             </div>
-            <hr>
-            <br>
-            <div class="skills">
-                <div>
-                    <p class="title-color"><strong>SOFT SKILLS</strong></p>
-                    <ul>
-                        <li>Team Player</li>
-                        <li>Resourceful</li>
-                        <li>Creative thinker</li>
-                        <li>Ability to adapt</li>
-                        <li>Accountability</li>
-                    </ul>
-                </div>
-                <div>
-                    <p class="title-color"><strong>TOOLS & LANGUAGES</strong></p>
-                    <ul>
-                        <li>GitHub</li>
-                        <li>VsCode</li>
-                        <li>JavaScript</li>
-                        <li>HMTL</li>
-                        <li>CSS</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <div>
-                    <p class="title-color"><strong>HOBBIES</strong></p>
-                    <ul>
-                        <li>Volleyball</li>
-                        <li>Reading</li>
-                        <li>Video games</li>
-                    </ul>
-                </div>
-            </div>
-        </main>
-        <hr>
-        <footer>
-            <p class="title-color"><strong>IMPORTANT LINKS</strong></p>
-            <a href="https://hng.tech/" target="_blank"><img width="70px" height="50px" src="./assests/Hng.jpg" alt="HNG homepage"></a>
-            <a href="https://internship.zuri.team/" target="_blank"><img width="70px" height="50px" src="./assests/zuri.jpeg" alt="Zuri homepage"></a>
-            <a href="https://ingressive.org/" target="_blank"><img width="70px" height="50px" src="./assests/i4g.png" alt="I4G homepage"></a>
-        </footer>
-    </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <div>
+            Made with <span style="color: red;">&hearts;</span> by Usenmfon
+        </div>
+        <div>
+            &copy; 2021
+        </div>
+
+    </footer>
+    <script src="script.js "></script>
 </body>
 
 </html>
