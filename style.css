@@ -128,6 +128,14 @@ ul li {
     border-radius: 50%;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* text-align: center; */
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -184,6 +192,13 @@ footer {
     } */
     header h1 a {
         font-size: 18px;
+    }
+    .footer {
+        position: unset;
+        left: 0;
+        bottom: 0;
+        /* width: 100%; */
+        /* text-align: center; */
     }
     footer {
         position: absolute;
