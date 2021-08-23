@@ -67,6 +67,15 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function myFunction() {
+    var x = document.getElementById("myTopNav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
+
 window.onload = function(){
     var elements = document.getElementsByClassName('typewrite');
     for(var i = 0; i<elements.length; i++){

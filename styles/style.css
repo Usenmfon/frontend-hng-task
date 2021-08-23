@@ -56,6 +56,10 @@ main {
     font-size: 16px;
 }
 
+.icon {
+    display: none;
+}
+
 .container .nav a:hover {
     height: 3em;
     color: #1d3557;
@@ -159,7 +163,25 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
+    .icon {
+        display: block;
+    }
+    .hideTab {
+        display: none;
+    }
     .container .nav {
+        position: absolute;
+        right: 0;
+        top: 20px;
+        justify-content: space-around;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 8em;
+        width: 15%;
+    }
+    /* .nav.responsive {
         position: absolute;
         right: 0;
         top: 20px;
@@ -170,6 +192,10 @@ footer {
         border-bottom-left-radius: 10px;
         height: 10em;
         width: 15%;
+    } */
+    .nav.responsive a {
+        display: block;
+        height: 10em;
     }
     .container .nav a {
         text-decoration: none;
