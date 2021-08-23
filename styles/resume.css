@@ -1,0 +1,51 @@
+body {
+    background-color: #1d3557;
+}
+
+header {
+    background-color: #D1CAA1;
+}
+
+.content {
+    background-color: #f1faee;
+}
+
+hr {
+    border: 6px solid rgb(151, 146, 146);
+}
+
+footer,
+.skills,
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skills ul li {
+    list-style-type: square;
+}
+
+.main-body {
+    justify-content: flex-start;
+}
+
+.center-text {
+    position: relative;
+    left: 2em;
+}
+
+.title-color {
+    color: #457b9d;
+}
+
+#text-wrap {
+    word-wrap: break-word;
+    position: relative;
+    right: .5em;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: #457b9d;
+}
