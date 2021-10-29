@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    background-color: #DBB68F;
+}
+
+div {
+    border: solid #BB7E5D;
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+div:active {
+    box-shadow: 0 5px 8px #888888;
+    transform: translateY(3px);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-content: space-around;
+    }
+}
