@@ -43,4 +43,7 @@ a {
         width: 100%;
         align-content: space-around;
     }
+    a {
+        font-size: 2rem;
+    }
 }
