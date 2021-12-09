@@ -8,6 +8,11 @@ body {
 main {
     display: flex;
     flex-direction: column;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     height: inherit;
@@ -16,7 +21,7 @@ main {
 
 div {
     border: solid #BB7E5D;
-    width: 50vw;
+    width: 25rem;
     height: 30vh;
     display: flex;
     justify-content: center;
@@ -36,8 +41,27 @@ a {
     font-size: 1.2rem;
 }
 
+button {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: RoyalBlue;
+}
+
 @media only screen and (min-width: 1024px) {
     main {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        height: 100vh;
+    }
+    section {
         display: flex;
         flex-direction: row;
         width: 100%;
